@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+
+body{
+    margin-top: 1rem;
+}
+
+
+.expense{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin: 20px 2px;
+}
+
+input{
+    padding: 4px;
+    font-size: 1rem;
+    margin: 3px;
+    width: 500px;
+}
+
+select{
+    padding: 4px;
+    font-size: 1rem;
+    margin: 3px;
+}
+
+button{
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 3px;
+    width: 100px;
+    background-color: #e723c2;
+    color: aliceblue;
+    
+}
+
+h1,h2{
+    text-align: center;
+    color: #ca570c;
+}
+
+.expenseHistory{
+    background-color: aquamarine;
+    min-height: 500px;
+    padding: 15px;
+    margin: 20px 2px;
+}
+
+h3{
+    display: inline-block;
+}
+
+.Gtotol{
+    display: flex;
+    background-color: #49ca0c33;
+    color: rgb(51 21 206);
+    padding: 5px;
+    justify-content: space-evenly;
+    margin: 20px 2px;
+}
+
+.Gtotol span{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+li{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 1rem;
+    margin: 5px 0;
+    font-size: 22px;
+}
+
+.debit{
+    background-color: red;
+}
+
+.credit{
+    background-color: green;
+}
+
+.negative{
+    color: red;
+}
+
+.positive{
+    color: green;
+}
